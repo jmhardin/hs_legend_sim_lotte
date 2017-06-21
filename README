@@ -1,0 +1,17 @@
+USAGE
+-n <trials>
+-wr <win rate>
+-wr_err <gaussian error on win rate>
+-stars <needed stars>
+-pdf (Prints the pdf instead of the cdf)
+
+
+Defaults to printing the cdf with wr=.53, wr_err=.01, and stars=20 for 100000 trials
+
+Maxes at 2000 games with a floor at 26 stars needed (bottom of rank 5) - both are adjustable defines
+
+prints 5 columns with content:
+games sim_val sim_val_bayes calc_val calc_val_bayes
+
+Note that the sim properly takes into account the rank floor, while the "calc" does not
+
