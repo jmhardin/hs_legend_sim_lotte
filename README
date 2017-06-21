@@ -8,7 +8,7 @@ USAGE
 
 Defaults to printing the cdf with wr=.53, wr_err=.01, and stars=20 for 100000 trials
 
-Maxes at 2000 games with a floor at 26 stars needed (bottom of rank 5) - both are adjustable defines
+Maxes at 1000 games with a floor at 26 stars needed (bottom of rank 5) - both are adjustable defines
 
 prints 5 columns with content:
 games sim_val sim_val_bayes calc_val calc_val_bayes
